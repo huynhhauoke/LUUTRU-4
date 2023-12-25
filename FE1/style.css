@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    font-family: serif;
+}
+.navbar ul {
+    /* list-style-type: none; để bỏ dấu chấm  */
+    list-style-type: none;
+    background-color: rgb(54, 54, 54);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+} 
+
+.navbar a:hover {
+    background-color: cadetblue;
+}
+
+.navbar li {
+    float: left;
+}
+.navbar li.dang_nhap  {
+    float: right;
+}
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
